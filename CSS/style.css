@@ -1,0 +1,36 @@
+.topBar{
+    background-color: #26292e;
+    color: #949598;
+}
+
+.topMain{
+    background-color: #e7718b;
+}
+
+.laptopImg{
+    width: 100%;
+}
+
+.btn{
+    background-image:linear-gradient(#656565, #313030) ;
+    color: white;
+    border: none;
+}
+
+.midMain{
+    background-color: #f4f4f6;
+    border-bottom: solid 1px #e7718b;
+}
+
+.midMain h3{
+    color: #717173;
+}
+
+.midMain p{
+    color: #ceced5;
+}
+
+footer{
+    background-color: #26292e;
+    color: white;
+}
