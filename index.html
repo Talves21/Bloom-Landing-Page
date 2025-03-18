@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
+    <!-- Top Bar of page -->
     <header role="banner">
         <div class="container-fluid">
             <div class="row topBar">
@@ -22,47 +23,60 @@
         </div>
     </header>
 
+    <!-- First part of main content -->
     <main role="main">
         <div class="container-fluid">
-            <div class="row topMain">
-                <div class="col-12 text-light">
+            <div class="row topMain ">
+                <div class="col-12 col-lg-6 col-xxl-5 text-light">
                     <h3>Welcome to our Landing Page!</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil a fuga fugit. Consequatur tempore repudiandae itaque odio! Corporis, vero repellat error libero laboriosam similique provident. Distinctio aspernatur aliquam commodi eum?</p>
                     <br>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae nulla laboriosam aperiam obcaecati sequi quisquam. Sunt fuga sit ut ullam blanditiis expedita dolore numquam iure veritatis maiores! Fugiat, alias molestias.</p>
+
+                        <div class="row">
+                            <div class="col-6 col-lg-6">
+                                <button class="btn">Learn More</button>
+                            </div>
+                            <div class="col-6 col-lg-6 dButton">
+                                <button class="btn">Download Now</button>
+                            </div>
+                        </div>
                 </div>
 
-                <div class="col-6">
-                    <button class="btn">Learn More</button>
-                </div>
-                <div class="col-6">
-                    <button class="btn">Download Now</button>
-                </div>
-
-                <div class="col-12 laptopImg">
+                <div class="laptopImg col-12 col-lg-6 col-xxl-7 d-flex justify-content-xxl-end">
                     <img class="img-fluid" src="./Images/Laptop.png" alt="picture of a laptop">
                 </div>
             </div>
         </div>
-
+        
+        <!-- Middle section of main content -->
         <div class="container-fluid">
             <div class="row midMain">
-                <div class="col-12">
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est nostrum veniam obcaecati quibusdam eum aperiam qui ut nisi. Eius aspernatur labore ipsum maiores debitis voluptates sunt quasi error tempora.</p>
+                <div class="col-12 col-md-4">
+                    <div class="cloud d-flex">
+                        <img src="./Images/cloud.png" alt="download icon" class="img-fluid">
+                        <h3 class="mt-2 mt-sm-1">Lorem, ipsum dolor.</h3>
+                    </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est nostrum veniam obcaecati quibusdam eum aperiam qui ut nisi. Eius aspernatur labore ipsum maiores debitis voluptates sunt quasi error tempora.</p>
                     <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at itaque incidunt saepe, rem ducimus.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at itaque incidunt saepe, rem ducimus.</p>
                 </div>
 
-                <div class="col-12">
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est nostrum veniam obcaecati quibusdam eum aperiam qui ut nisi. Eius aspernatur labore ipsum maiores debitis voluptates sunt quasi error tempora.</p>
+                <div class="col-12 col-md-4">
+                    <div class="chat d-flex">
+                        <img src="./Images/chat.png" alt="chat bubble icon" class="img-fluid">
+                        <h3 class="mt-2 mt-sm-1">Lorem, ipsum dolor.</h3>
+                    </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est nostrum veniam obcaecati quibusdam eum aperiam qui ut nisi. Eius aspernatur labore ipsum maiores debitis voluptates sunt quasi error tempora.</p>
                     <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at itaque incidunt saepe, rem ducimus.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at itaque incidunt saepe, rem ducimus.</p>
                 </div>
 
-                <div class="col-12">
-                    <h3>Lorem, ipsum dolor.</h3>
+                <div class="col-12 col-md-4">
+                    <div class="star d-flex">
+                        <img src="./Images/star.png" alt="star icon" class="img-fluid">
+                        <h3 class="mt-2 mt-sm-1">Lorem, ipsum dolor.</h3>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est nostrum veniam obcaecati quibusdam eum aperiam qui ut nisi. Eius aspernatur labore ipsum maiores debitis voluptates sunt quasi error tempora.</p>
                     <br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at itaque incidunt saepe, rem ducimus.</p>
@@ -70,27 +84,32 @@
             </div>
         </div>
 
+        <!-- Bottom section of main content -->
         <div class="container-fluid">
-            <div class="row bottomMain">
-                <div class="col-12 text-center">
+            <div class="row bottomMain d-flex justify-content-xxl-between">
+                <div class="col-12 col-lg-6 col-xxl-8 productTitle">
                     <h3>Checkout our Products!</h3>
+                
+                    <div class="row screen">
+                        <div class="col-6">
+                            <img class="img-fluid" src="./Images/Screen.png" alt="a screen with an eyeglass icon within it">
+                        </div>
+                        <div class="col-6">
+                            <img src="./Images/Screen.png" alt="a screen with an eyeglass icon within it" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="row screen">
+                        <div class="col-6">
+                            <img src="./Images/Screen.png" alt="a screen with an eyeglass icon within it" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <img src="./Images/Screen.png" alt="a screen with an eyeglass icon within it" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-6">
-                    <img class="img-fluid" src="./Images/Screen.png" alt="a screen with an eyeglass icon within it">
-                </div>
-                <div class="col-6">
-                    <img src="./Images/Screen.png" alt="a screen with an eyeglass icon within it" class="img-fluid">
-                </div>
-
-                <div class="col-6">
-                    <img src="./Images/Screen.png" alt="a screen with an eyeglass icon within it" class="img-fluid">
-                </div>
-                <div class="col-6">
-                    <img src="./Images/Screen.png" alt="a screen with an eyeglass icon within it" class="img-fluid">
-                </div>
-
-                <div class="col-12">
+                <div class="col-12 col-lg-6 col-xxl-4">
                     <h3>What our Clients are saying...</h3>
                     <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi, voluptas amet corrupti consequatur, placeat delectus eaque quia quas veniam veritatis dolores sed modi cumque. Accusantium architecto omnis doloribus consectetur." <b>- John Smith</b></p>
                     <br>
@@ -102,13 +121,14 @@
         </div>
     </main>
 
+    <!-- Footer -->
     <footer role="contentinfo">
         <div class="row">
             <div class="col-6">
                 <p>Copyright &copy Bloom Web Design * All rights reserved</p>
             </div>
 
-            <div class="col-6">
+            <div class="col-6 d-flex justify-content-end">
                 <img src="./Images/Social Icons.png" alt="three different social media logos" class="img-fluid">
             </div>
         </div>
